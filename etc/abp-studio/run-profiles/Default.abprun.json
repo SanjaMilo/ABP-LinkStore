@@ -1,0 +1,13 @@
+﻿{
+  "applications": {
+    "LinkStore.Web": {
+      "type": "dotnet-project",
+      "launchUrl": "https://localhost:44303",
+      "path": "../../../src/LinkStore.Web/LinkStore.Web.csproj",
+      "kubernetesService": ".*-web$",
+      "execution": {
+        "order": 2
+      }
+    }
+  }
+}

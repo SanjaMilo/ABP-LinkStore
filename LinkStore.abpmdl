@@ -1,0 +1,93 @@
+{
+  "template": "app",
+  "imports": {
+    "Volo.Abp.LeptonXLiteTheme": {
+      "version": "3.3.2",
+      "isInstalled": true
+    },
+    "Volo.Abp.Account": {
+      "version": "8.3.2",
+      "isInstalled": true
+    },
+    "Volo.Abp.OpenIddict": {
+      "version": "8.3.2",
+      "isInstalled": true
+    },
+    "Volo.Abp.Identity": {
+      "version": "8.3.2",
+      "isInstalled": true
+    },
+    "Volo.Abp.TenantManagement": {
+      "version": "8.3.2",
+      "isInstalled": true
+    }
+  },
+  "folders": {
+    "items": {
+      "src": {},
+      "test": {}
+    }
+  },
+  "packages": {
+    "LinkStore.Application": {
+      "path": "src/LinkStore.Application/LinkStore.Application.abppkg",
+      "folder": "src"
+    },
+    "LinkStore.Application.Tests": {
+      "path": "test/LinkStore.Application.Tests/LinkStore.Application.Tests.abppkg",
+      "folder": "test"
+    },
+    "LinkStore.MongoDB": {
+      "path": "src/LinkStore.MongoDB/LinkStore.MongoDB.abppkg",
+      "folder": "src"
+    },
+    "LinkStore.MongoDB.Tests": {
+      "path": "test/LinkStore.MongoDB.Tests/LinkStore.MongoDB.Tests.abppkg",
+      "folder": "test"
+    },
+    "LinkStore.Domain.Shared": {
+      "path": "src/LinkStore.Domain.Shared/LinkStore.Domain.Shared.abppkg",
+      "folder": "src"
+    },
+    "LinkStore.Application.Contracts": {
+      "path": "src/LinkStore.Application.Contracts/LinkStore.Application.Contracts.abppkg",
+      "folder": "src"
+    },
+    "LinkStore.HttpApi": {
+      "path": "src/LinkStore.HttpApi/LinkStore.HttpApi.abppkg",
+      "folder": "src"
+    },
+    "LinkStore.HttpApi.Client": {
+      "path": "src/LinkStore.HttpApi.Client/LinkStore.HttpApi.Client.abppkg",
+      "folder": "src"
+    },
+    "LinkStore.Web": {
+      "path": "src/LinkStore.Web/LinkStore.Web.abppkg",
+      "folder": "src"
+    },
+    "LinkStore.Web.Tests": {
+      "path": "test/LinkStore.Web.Tests/LinkStore.Web.Tests.abppkg",
+      "folder": "test"
+    },
+    "LinkStore.TestBase": {
+      "path": "test/LinkStore.TestBase/LinkStore.TestBase.abppkg",
+      "folder": "test"
+    },
+    "LinkStore.Domain.Tests": {
+      "path": "test/LinkStore.Domain.Tests/LinkStore.Domain.Tests.abppkg",
+      "folder": "test"
+    },
+    "LinkStore.HttpApi.Client.ConsoleTestApp": {
+      "path": "test/LinkStore.HttpApi.Client.ConsoleTestApp/LinkStore.HttpApi.Client.ConsoleTestApp.abppkg",
+      "folder": "test"
+    },
+    "LinkStore.DbMigrator": {
+      "path": "src/LinkStore.DbMigrator/LinkStore.DbMigrator.abppkg",
+      "folder": "src"
+    },
+    "LinkStore.Domain": {
+      "path": "src/LinkStore.Domain/LinkStore.Domain.abppkg",
+      "folder": "src"
+    }
+  }
+}
